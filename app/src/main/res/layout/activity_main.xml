@@ -5,6 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
     tools:context="com.zjw.appmethodorder.MainActivity">
 
     <com.zjw.appmethodorder.MyTextView
@@ -15,5 +17,12 @@
         android:textSize="20sp"
         android:gravity="center"
         android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Network"
+        android:onClick="gotoNetWorkActivity"
+        />
 
 </LinearLayout>

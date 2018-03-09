@@ -54,4 +54,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             startActivity(intent);
         }
     }
+
+    public void gotoNetWorkActivity(View view){
+        Intent intent = new Intent(this,NetWorkActivity.class);
+        startActivity(intent);
+    }
 }
